@@ -16,14 +16,5 @@ fn main() -> io::Result<()> {
         k.push(ol);
     }
 
-    let mut count = 0;
-    for (_key, value) in &words {
-        if value.len() > 1 {
-            count += value.len();
-        }
-    }
-
-    println!("{}", count);
-
     Ok(())
 }

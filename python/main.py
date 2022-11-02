@@ -8,10 +8,3 @@ with open("../wordlist.txt") as file:
             words[h].append(x)
         else:
             words[h] = [x]
-
-count = 0
-for k, v in words.items():
-    if len(v) > 1:
-        count += len(v)
-
-print(count)
