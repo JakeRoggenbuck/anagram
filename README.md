@@ -1,4 +1,5 @@
 # Anagram finder
+Method of finding anagrams 
 
 ```
 Starting Rust
