@@ -2,6 +2,9 @@
 Method of finding anagrams 
 
 ```
+Tested with wordlist of 172787 lines long from https://github.com/dwyl/english-words
+====================================================================================
+
 Starting Rust
 
 real	0m0.153s
